@@ -3,8 +3,6 @@
 
 mod uac;
 
-use core::mem::transmute;
-
 use defmt_rtt as _;
 use hal::{
     clocks::init_clocks_and_plls, usb::UsbBus,
